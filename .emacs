@@ -2,6 +2,8 @@
 (menu-bar-mode -1)
 (toggle-scroll-bar -1)
 (tool-bar-mode -1)
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
 
 ;; Fonts
 (set-face-attribute 'default nil :height 150 :font "Fira Mono")
