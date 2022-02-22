@@ -1,0 +1,12 @@
+#+TITLE: Minimal configuration
+
+- Minimal doom-like configuration
+- =wget https://n1tsu.com/.emacs= to quickly conf Emacs
+- Packages:
+  + evil :: vim bindings
+  + evil-collection :: vim bindings extended to some packages
+  + doom-modeline :: Doom UI modeline
+  + doom-themes :: Doom faces
+  + counsel :: Completion
+  + projectile :: Project manager
+  + magit :: git manager
